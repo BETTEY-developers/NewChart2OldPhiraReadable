@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewChart2OldPhiraReadable", "NewChart2OldPhiraReadable\NewChart2OldPhiraReadable.csproj", "{6308D2C5-AE62-4064-8569-F31DF1907B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewChart2OldPhiraReadable", "NewChart2OldPhiraReadable\NewChart2OldPhiraReadable.csproj", "{6308D2C5-AE62-4064-8569-F31DF1907B3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{D3EA863E-CC49-4692-840E-7AC272B4B1DC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D23819E-6E0E-4E3F-ACE5-643EC44BD414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6308D2C5-AE62-4064-8569-F31DF1907B3D} = {4D23819E-6E0E-4E3F-ACE5-643EC44BD414}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {326FCAEF-70FF-495D-9196-2315395933C9}
